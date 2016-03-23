@@ -1,0 +1,1 @@
+$(document).ready(function(){var t=0,a=0;$("#cat1").click(function(a){t++,$(".cat1Counter").text("Click Number: "+t)}),$("#cat2").click(function(t){a++,$(".cat2Counter").text("Click Number: "+a)});var e=$("<p>Catimus the first.</p>"),c=$("<p>Catmageddon the second.</p>");$("<div class='catNames'></div>").prependTo(".imageBox"),$(".catNames").append(e),$(".catNames").append(c)});

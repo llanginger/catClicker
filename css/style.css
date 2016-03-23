@@ -1,0 +1,41 @@
+/** {
+  border: 1px red solid;
+}*/
+body {
+  background-color: honeydew;
+}
+p {
+  font-size: 20px;
+}
+
+.imageBox {
+  display: block;
+  width: 100%;
+}
+.catNames {
+  clear:both;
+  display:flex;
+  justify-content: space-between;
+
+}
+#cat1 {
+  display: inline-block;
+  float: left;
+}
+#cat2 {
+  display: inline-block;
+  max-height: 428px;
+  float: right;
+}
+
+.numberContainer {
+  clear:both;
+  display:flex;
+  justify-content: space-between;
+}
+
+
+
+.red {
+  background: red;
+}
